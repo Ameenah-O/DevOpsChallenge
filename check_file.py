@@ -37,7 +37,7 @@ def uncapitalize_filenames(directory):
         # rename the file
         os.rename(src, dst)
 
-#checks command line argument to capitalize or uncapitalize file names
+#checks command line argument to capitalize or uncapitalize file  vnames
 if args.s !=None:
     uncapitalize_filenames(args.s)
     print("Successful")
